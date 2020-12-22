@@ -3,7 +3,7 @@ module.exports = {
     title: `Daniel Oliveira Blog`,
     author: {
       name: `Daniel Oliveira`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `, atualmente morando e trabalhando no Brasil criando coisas legais e as vezes úteis ;)`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://danieloliveira.netlify.app/`,
@@ -61,12 +61,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Daniel Oliveira Blog`,
-        short_name: `GatsbyJS`,
+        short_name: `Daniel`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
