@@ -27,7 +27,11 @@ const Layout = ({ location, title, children }) => {
       <footer>
         © {new Date().getFullYear()}, Criado com
         {` `}
-        <a href="https://www.gatsbyjs.com" target="_blank">
+        <a
+          href="https://www.gatsbyjs.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Gatsby
         </a>
       </footer>
